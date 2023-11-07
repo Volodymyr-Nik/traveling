@@ -1,0 +1,94 @@
+footer {
+    background: #232323;
+
+    .footer-contanier {
+        width: 1138px;
+        height: 271px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+
+        .logo-footer {
+            letter-spacing: 3.36px;
+        }
+
+        .slogan {
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 1.6px;
+            color: #FFFFFF;
+            padding-top: 8px;
+            padding-bottom: 17px;
+        }
+    }
+
+    @include media-screen-medium {
+        .footer-contanier {
+            width: 400px;
+            height: 271px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+}
+
+.footer-socials {
+    padding-bottom: 45px;
+}
+
+.footer_socialweb {
+    width: 200px;
+    height: 18px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__webfont {
+    width: 20px;
+    height: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    background-size: 0.5%;
+    cursor: pointer;
+    color: white;
+}
+.footer__facebook i:hover {
+    transform: scale(1.2);
+    font-size: 22px;
+    color: #3B5998;
+}
+.footer__twitter:hover {
+    transform: scale(1.2);
+    font-size: 22px;
+    color: #1DA1F2;
+}
+.footer__linkedin:hover {
+    transform: scale(1.2);
+    font-size: 22px;
+    color: #0E76A8;
+}
+.footer__youtube:hover {
+    transform: scale(1.2);
+    font-size: 22px;
+    color: #C4302B;
+}
+.footer__pinterest:hover {
+    transform: scale(1.2);
+    font-size: 22px;
+
+    color: #E60023;
+}
